@@ -1,0 +1,171 @@
+<svg width="100%" viewBox="0 0 680 474" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
+<defs>
+<style>
+.th { font-size:11px; font-weight:500; fill:#3d3d3a; }
+.td { font-size:10px; fill:#3d3d3a; }
+.tds { font-size:10px; fill:#6b6b66; }
+.hdr { fill:#D3D1C7; }
+.r1  { fill:#F1EFE8; }
+.r2  { fill:#ffffff; }
+.hi  { fill:#CECBF6; stroke:#534AB7; stroke-width:0.5; }
+.med { fill:#9FE1CB; stroke:#0F6E56; stroke-width:0.5; }
+.lo  { fill:#F1EFE8; stroke:#B4B2A9; stroke-width:0.5; }
+.rb  { fill:#F7C1C1; stroke:#A32D2D; stroke-width:0.5; }
+</style>
+</defs>
+
+<rect x="0" y="0" width="680" height="22" class="hdr"/>
+<text class="th" x="4"   y="11" dominant-baseline="central">Stakeholder</text>
+<text class="th" x="130" y="11" dominant-baseline="central">Role</text>
+<text class="th" x="240" y="11" dominant-baseline="central">Power</text>
+<text class="th" x="290" y="11" dominant-baseline="central">Interest</text>
+<text class="th" x="345" y="11" dominant-baseline="central">Adoption risk</text>
+<text class="th" x="441" y="11" dominant-baseline="central">Engagement approach</text>
+
+<line x1="128" y1="0" x2="128" y2="436" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="238" y1="0" x2="238" y2="436" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="288" y1="0" x2="288" y2="436" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="343" y1="0" x2="343" y2="436" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="438" y1="0" x2="438" y2="436" stroke="#B4B2A9" stroke-width="0.5"/>
+
+<rect x="0" y="22" width="680" height="34" class="r1"/>
+<text class="td" x="4" y="35" dominant-baseline="central">Sandra Voss</text>
+<text class="tds" x="4" y="47" dominant-baseline="central">COO / sponsor</text>
+<text class="td" x="130" y="39" dominant-baseline="central">Approves, escalates</text>
+<rect x="240" y="26" width="44" height="14" rx="2" class="hi"/><text class="th" x="262" y="33" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="290" y="26" width="44" height="14" rx="2" class="hi"/><text class="th" x="312" y="33" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="345" y="26" width="44" height="14" rx="2" class="lo"/><text class="td" x="367" y="33" text-anchor="middle" dominant-baseline="central">Low</text>
+<text class="td" x="441" y="35" dominant-baseline="central">Monthly steering committee</text>
+<text class="tds" x="441" y="47" dominant-baseline="central">RAG + fever chart reporting</text>
+
+<rect x="0" y="56" width="680" height="34" class="r2"/>
+<text class="td" x="4" y="69" dominant-baseline="central">Marcus Obi</text>
+<text class="tds" x="4" y="81" dominant-baseline="central">Programme Director</text>
+<text class="td" x="130" y="73" dominant-baseline="central">Delivers, decides</text>
+<rect x="240" y="60" width="44" height="14" rx="2" class="hi"/><text class="th" x="262" y="67" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="290" y="60" width="44" height="14" rx="2" class="hi"/><text class="th" x="312" y="67" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="345" y="60" width="44" height="14" rx="2" class="lo"/><text class="td" x="367" y="67" text-anchor="middle" dominant-baseline="central">Low</text>
+<text class="td" x="441" y="69" dominant-baseline="central">Weekly programme review</text>
+<text class="tds" x="441" y="81" dominant-baseline="central">Direct involvement</text>
+
+<rect x="0" y="90" width="680" height="34" class="r1"/>
+<text class="td" x="4" y="103" dominant-baseline="central">Priya Nair</text>
+<text class="tds" x="4" y="115" dominant-baseline="central">Product Owner</text>
+<text class="td" x="130" y="107" dominant-baseline="central">Accepts, signs off</text>
+<rect x="240" y="94" width="44" height="14" rx="2" class="med"/><text class="th" x="262" y="101" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="290" y="94" width="44" height="14" rx="2" class="hi"/><text class="th" x="312" y="101" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="345" y="94" width="44" height="14" rx="2" class="lo"/><text class="td" x="367" y="101" text-anchor="middle" dominant-baseline="central">Low</text>
+<text class="td" x="441" y="103" dominant-baseline="central">Embedded in delivery</text>
+<text class="tds" x="441" y="115" dominant-baseline="central">Acceptance reviews</text>
+
+<rect x="0" y="124" width="680" height="44" class="r2"/>
+<text class="td" x="4" y="137" dominant-baseline="central">Call centre agents</text>
+<text class="tds" x="4" y="149" dominant-baseline="central">~600, primary users</text>
+<text class="td" x="130" y="137" dominant-baseline="central">Work orders daily;</text>
+<text class="td" x="130" y="149" dominant-baseline="central">can resist or workaround</text>
+<rect x="240" y="128" width="44" height="14" rx="2" class="lo"/><text class="td" x="262" y="135" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="290" y="128" width="44" height="14" rx="2" class="hi"/><text class="th" x="312" y="135" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="345" y="128" width="44" height="14" rx="2" class="rb"/><text class="td" x="367" y="135" text-anchor="middle" dominant-baseline="central" style="fill:#A32D2D;font-weight:500">High</text>
+<text class="td" x="441" y="137" dominant-baseline="central">Observed sessions from m4</text>
+<text class="tds" x="441" y="149" dominant-baseline="central">Iterative UI reviews m6–m10</text>
+<text class="tds" x="441" y="161" dominant-baseline="central">Structured UAT from m9</text>
+
+<rect x="0" y="168" width="680" height="44" class="r1"/>
+<text class="td" x="4" y="181" dominant-baseline="central">Retail agents</text>
+<text class="tds" x="4" y="193" dominant-baseline="central">Regional stores</text>
+<text class="td" x="130" y="181" dominant-baseline="central">Different workflow;</text>
+<text class="td" x="130" y="193" dominant-baseline="central">can escalate</text>
+<rect x="240" y="172" width="44" height="14" rx="2" class="lo"/><text class="td" x="262" y="179" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="290" y="172" width="44" height="14" rx="2" class="med"/><text class="th" x="312" y="179" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="345" y="172" width="44" height="14" rx="2" class="rb"/><text class="td" x="367" y="179" text-anchor="middle" dominant-baseline="central" style="fill:#A32D2D;font-weight:500">High</text>
+<text class="td" x="441" y="181" dominant-baseline="central">Dedicated workshops m3–m4</text>
+<text class="tds" x="441" y="193" dominant-baseline="central">Included in UAT pilot</text>
+<text class="tds" x="441" y="205" dominant-baseline="central">Regional champion per area</text>
+
+<rect x="0" y="212" width="680" height="34" class="r2"/>
+<text class="td" x="4" y="225" dominant-baseline="central">Back-office agents</text>
+<text class="tds" x="4" y="237" dominant-baseline="central">Order mgmt / fallout</text>
+<text class="td" x="130" y="229" dominant-baseline="central">Work fallout queue</text>
+<rect x="240" y="216" width="44" height="14" rx="2" class="lo"/><text class="td" x="262" y="223" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="290" y="216" width="44" height="14" rx="2" class="med"/><text class="th" x="312" y="223" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="345" y="216" width="44" height="14" rx="2" class="med"/><text class="td" x="367" y="223" text-anchor="middle" dominant-baseline="central">Med</text>
+<text class="td" x="441" y="225" dominant-baseline="central">Exception flow reviews</text>
+<text class="tds" x="441" y="237" dominant-baseline="central">Included in UAT</text>
+
+<rect x="0" y="246" width="680" height="44" class="r1"/>
+<text class="td" x="4" y="259" dominant-baseline="central">Field engineers</text>
+<text class="tds" x="4" y="271" dominant-baseline="central">~800, mobile interface</text>
+<text class="td" x="130" y="259" dominant-baseline="central">Receive jobs on device;</text>
+<text class="td" x="130" y="271" dominant-baseline="central">mixed device fleet</text>
+<rect x="240" y="250" width="44" height="14" rx="2" class="lo"/><text class="td" x="262" y="257" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="290" y="250" width="44" height="14" rx="2" class="med"/><text class="th" x="312" y="257" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="345" y="250" width="44" height="14" rx="2" class="rb"/><text class="td" x="367" y="257" text-anchor="middle" dominant-baseline="central" style="fill:#A32D2D;font-weight:500">High</text>
+<text class="td" x="441" y="259" dominant-baseline="central">Device audit m5</text>
+<text class="tds" x="441" y="271" dominant-baseline="central">Mobile UAT from m9</text>
+<text class="tds" x="441" y="283" dominant-baseline="central">Go-live day briefing</text>
+
+<rect x="0" y="290" width="680" height="44" class="r2"/>
+<text class="td" x="4" y="303" dominant-baseline="central">Supervisors</text>
+<text class="tds" x="4" y="315" dominant-baseline="central">Team leaders</text>
+<text class="tds" x="4" y="327" dominant-baseline="central">Call centre + retail</text>
+<text class="td" x="130" y="303" dominant-baseline="central">Informal endorsers;</text>
+<text class="td" x="130" y="315" dominant-baseline="central">can enable or undermine</text>
+<rect x="240" y="294" width="44" height="14" rx="2" class="med"/><text class="th" x="262" y="301" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="290" y="294" width="44" height="14" rx="2" class="med"/><text class="th" x="312" y="301" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="345" y="294" width="44" height="14" rx="2" class="med"/><text class="td" x="367" y="301" text-anchor="middle" dominant-baseline="central">Med</text>
+<text class="td" x="441" y="303" dominant-baseline="central">Early briefings and previews</text>
+<text class="tds" x="441" y="315" dominant-baseline="central">Change champion role</text>
+<text class="tds" x="441" y="327" dominant-baseline="central">Pre-go-live train-the-trainer</text>
+
+<rect x="0" y="334" width="680" height="34" class="r1"/>
+<text class="td" x="4" y="347" dominant-baseline="central">Network Operations</text>
+<text class="tds" x="4" y="359" dominant-baseline="central">External — provisioning</text>
+<text class="td" x="130" y="351" dominant-baseline="central">Controls test readiness</text>
+<rect x="240" y="338" width="44" height="14" rx="2" class="hi"/><text class="th" x="262" y="345" text-anchor="middle" dominant-baseline="central">High</text>
+<rect x="290" y="338" width="44" height="14" rx="2" class="lo"/><text class="td" x="312" y="345" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="345" y="338" width="44" height="14" rx="2" class="lo"/><text class="td" x="367" y="345" text-anchor="middle" dominant-baseline="central">Low</text>
+<text class="td" x="441" y="347" dominant-baseline="central">Formal API freeze agreement</text>
+<text class="tds" x="441" y="359" dominant-baseline="central">Dedicated test window schedule</text>
+
+<rect x="0" y="368" width="680" height="34" class="r2"/>
+<text class="td" x="4" y="381" dominant-baseline="central">Billing Platform</text>
+<text class="tds" x="4" y="393" dominant-baseline="central">External — billing</text>
+<text class="td" x="130" y="385" dominant-baseline="central">Upgrade dependency</text>
+<rect x="240" y="372" width="44" height="14" rx="2" class="med"/><text class="th" x="262" y="379" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="290" y="372" width="44" height="14" rx="2" class="lo"/><text class="td" x="312" y="379" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="345" y="372" width="44" height="14" rx="2" class="med"/><text class="td" x="367" y="379" text-anchor="middle" dominant-baseline="central">Med</text>
+<text class="td" x="441" y="381" dominant-baseline="central">Upgrade funding resolution m3</text>
+<text class="tds" x="441" y="393" dominant-baseline="central">Joint integration test plan</text>
+
+<rect x="0" y="402" width="680" height="34" class="r1"/>
+<text class="td" x="4" y="415" dominant-baseline="central">Field Workforce Mgmt</text>
+<text class="tds" x="4" y="427" dominant-baseline="central">External — field</text>
+<text class="td" x="130" y="419" dominant-baseline="central">Interface not agreed</text>
+<rect x="240" y="406" width="44" height="14" rx="2" class="med"/><text class="th" x="262" y="413" text-anchor="middle" dominant-baseline="central">Med</text>
+<rect x="290" y="406" width="44" height="14" rx="2" class="lo"/><text class="td" x="312" y="413" text-anchor="middle" dominant-baseline="central">Low</text>
+<rect x="345" y="406" width="44" height="14" rx="2" class="med"/><text class="td" x="367" y="413" text-anchor="middle" dominant-baseline="central">Med</text>
+<text class="td" x="441" y="415" dominant-baseline="central">Interface spec agreed m4</text>
+<text class="tds" x="441" y="427" dominant-baseline="central">Mobile device audit included</text>
+
+<rect x="0" y="0" width="680" height="436" fill="none" stroke="#888780" stroke-width="0.5"/>
+<line x1="0" y1="22"  x2="680" y2="22"  stroke="#888780" stroke-width="0.5"/>
+<line x1="0" y1="56"  x2="680" y2="56"  stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="90"  x2="680" y2="90"  stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="124" x2="680" y2="124" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="168" x2="680" y2="168" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="212" x2="680" y2="212" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="246" x2="680" y2="246" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="290" x2="680" y2="290" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="334" x2="680" y2="334" stroke="#888780" stroke-width="0.8"/>
+<line x1="0" y1="368" x2="680" y2="368" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="402" x2="680" y2="402" stroke="#B4B2A9" stroke-width="0.5"/>
+
+<rect x="4"   y="444" width="14" height="12" rx="2" class="hi"/>
+<text style="font-size:10px;fill:#3d3d3a" x="22" y="450" dominant-baseline="central">High</text>
+<rect x="64"  y="444" width="14" height="12" rx="2" class="med"/>
+<text style="font-size:10px;fill:#3d3d3a" x="82" y="450" dominant-baseline="central">Medium</text>
+<rect x="148" y="444" width="14" height="12" rx="2" class="lo"/>
+<text style="font-size:10px;fill:#3d3d3a" x="166" y="450" dominant-baseline="central">Low</text>
+<rect x="202" y="444" width="14" height="12" rx="2" class="rb"/>
+<text style="font-size:10px;fill:#A32D2D;font-weight:500" x="220" y="450" dominant-baseline="central">High adoption risk</text>
+</svg>

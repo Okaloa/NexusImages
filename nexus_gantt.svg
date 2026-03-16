@@ -1,36 +1,39 @@
 <svg width="100%" viewBox="0 0 680 510" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
 <defs>
 <style>
-  .t  { font-size:14px; fill:#3d3d3a; }
-  .ts { font-size:12px; fill:#6b6b66; }
-  .th { font-size:14px; font-weight:500; fill:#3d3d3a; }
-  .ph-teal   { fill:#9FE1CB; stroke:#0F6E56; }
-  .ph-blue   { fill:#B5D4F4; stroke:#185FA5; }
-  .ph-purple { fill:#CECBF6; stroke:#534AB7; }
-  .ph-amber  { fill:#FAC775; stroke:#854F0B; }
-  .ph-coral  { fill:#F5C4B3; stroke:#993C1D; }
-  .ph-red    { fill:#F7C1C1; stroke:#A32D2D; }
-  .ph-gray   { fill:#D3D1C7; stroke:#5F5E5A; }
-  .row-bg    { fill:#F1EFE8; }
+  .label  { font-size:11px; fill:#3d3d3a; }
+  .danger { fill:#A32D2D; font-size:11px; }
   .grid      { stroke:#D3D1C7; stroke-width:0.5; }
   .grid-sec  { stroke:#B4B2A9; stroke-width:0.5; }
   .border    { stroke:#888780; stroke-width:0.5; fill:none; }
+  .today     { stroke:#185FA5; stroke-width:1.5; stroke-dasharray:4 3; }
   .deadline  { stroke:#E24B4A; stroke-width:1; stroke-dasharray:4 3; opacity:0.6; }
   .diamond   { fill:#B4B2A9; stroke:#5F5E5A; stroke-width:1; }
-  .label     { font-size:11px; fill:#3d3d3a; }
-  .danger    { fill:#A32D2D; font-size:11px; }
+  .row-bg    { fill:#F1EFE8; }
+  .ph-teal   { fill:#9FE1CB; stroke:#0F6E56; stroke-width:0.5; }
+  .ph-blue   { fill:#B5D4F4; stroke:#185FA5; stroke-width:0.5; }
+  .ph-purple { fill:#CECBF6; stroke:#534AB7; stroke-width:0.5; }
+  .ph-amber  { fill:#FAC775; stroke:#854F0B; stroke-width:0.5; }
+  .ph-coral  { fill:#F5C4B3; stroke:#993C1D; stroke-width:0.5; }
+  .planned   { fill:none; stroke:#B4B2A9; stroke-width:1; stroke-dasharray:3 2; }
+  .act-teal   { fill:#9FE1CB; stroke:#0F6E56; stroke-width:0.5; }
+  .act-blue   { fill:#B5D4F4; stroke:#185FA5; stroke-width:0.5; }
+  .act-purple { fill:#CECBF6; stroke:#534AB7; stroke-width:0.5; }
+  .slip       { fill:#FAECE7; stroke:#993C1D; stroke-width:0.5; stroke-dasharray:2 2; }
 </style>
+<marker id="cparrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+  <path d="M1 1L7 4L1 7" fill="none" stroke="#042C53" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
 </defs>
 
-<!-- Alternating row backgrounds -->
-<rect x="0" y="32" width="674" height="24" class="row-bg"/>
-<rect x="0" y="80" width="674" height="24" class="row-bg"/>
+<!-- Row backgrounds -->
+<rect x="0" y="32"  width="674" height="24" class="row-bg"/>
+<rect x="0" y="80"  width="674" height="24" class="row-bg"/>
 <rect x="0" y="168" width="674" height="24" class="row-bg"/>
 <rect x="0" y="296" width="674" height="24" class="row-bg"/>
 <rect x="0" y="384" width="674" height="24" class="row-bg"/>
 <rect x="0" y="452" width="674" height="24" class="row-bg"/>
 
-<!-- Vertical month grid lines -->
 <line x1="198" y1="8" x2="198" y2="476" class="grid"/>
 <line x1="232" y1="8" x2="232" y2="476" class="grid"/>
 <line x1="266" y1="8" x2="266" y2="476" class="grid"/>
@@ -45,16 +48,13 @@
 <line x1="572" y1="8" x2="572" y2="476" class="grid"/>
 <line x1="606" y1="8" x2="606" y2="476" class="grid"/>
 <line x1="640" y1="8" x2="640" y2="476" class="grid"/>
-
-<!-- Fiber rollout deadline -->
 <line x1="606" y1="8" x2="606" y2="476" class="deadline"/>
 
-<!-- Horizontal row dividers -->
-<line x1="0" y1="8"   x2="674" y2="8"   class="grid-sec"/>
-<line x1="0" y1="32"  x2="674" y2="32"  class="grid-sec"/>
-<line x1="0" y1="56"  x2="674" y2="56"  class="grid"/>
-<line x1="0" y1="76"  x2="674" y2="76"  class="grid-sec"/>
-<line x1="0" y1="80"  x2="674" y2="80"  class="grid-sec"/>
+<line x1="0" y1="8" x2="674" y2="8" class="grid-sec"/>
+<line x1="0" y1="32" x2="674" y2="32" class="grid-sec"/>
+<line x1="0" y1="56" x2="674" y2="56" class="grid"/>
+<line x1="0" y1="76" x2="674" y2="76" class="grid-sec"/>
+<line x1="0" y1="80" x2="674" y2="80" class="grid-sec"/>
 <line x1="0" y1="104" x2="674" y2="104" class="grid"/>
 <line x1="0" y1="124" x2="674" y2="124" class="grid"/>
 <line x1="0" y1="144" x2="674" y2="144" class="grid"/>
@@ -77,39 +77,37 @@
 <line x1="0" y1="448" x2="674" y2="448" class="grid-sec"/>
 <line x1="0" y1="452" x2="674" y2="452" class="grid-sec"/>
 <line x1="0" y1="476" x2="674" y2="476" class="grid-sec"/>
-
-<!-- Chart outer border and label divider -->
 <rect x="0" y="8" width="674" height="468" class="border"/>
 <line x1="162" y1="8" x2="162" y2="476" class="grid-sec"/>
 
 <!-- Month header -->
-<text class="ts" x="8" y="20" dominant-baseline="central">Mo.</text>
-<text class="ts" x="181" y="20" text-anchor="middle" dominant-baseline="central">1</text>
-<text class="ts" x="215" y="20" text-anchor="middle" dominant-baseline="central">2</text>
-<text class="ts" x="249" y="20" text-anchor="middle" dominant-baseline="central">3</text>
-<text class="ts" x="283" y="20" text-anchor="middle" dominant-baseline="central">4</text>
-<text class="ts" x="317" y="20" text-anchor="middle" dominant-baseline="central">5</text>
-<text class="ts" x="351" y="20" text-anchor="middle" dominant-baseline="central">6</text>
-<text class="ts" x="385" y="20" text-anchor="middle" dominant-baseline="central">7</text>
-<text class="ts" x="419" y="20" text-anchor="middle" dominant-baseline="central">8</text>
-<text class="ts" x="453" y="20" text-anchor="middle" dominant-baseline="central">9</text>
-<text class="ts" x="487" y="20" text-anchor="middle" dominant-baseline="central">10</text>
-<text class="ts" x="521" y="20" text-anchor="middle" dominant-baseline="central">11</text>
-<text class="ts" x="555" y="20" text-anchor="middle" dominant-baseline="central">12</text>
-<text class="ts" x="589" y="20" text-anchor="middle" dominant-baseline="central">13</text>
-<text class="ts" x="623" y="20" text-anchor="middle" dominant-baseline="central">14</text>
-<text class="ts" x="657" y="20" text-anchor="middle" dominant-baseline="central">15</text>
+<text class="label" x="8" y="20" dominant-baseline="central">Mo.</text>
+<text class="label" x="181" y="20" text-anchor="middle" dominant-baseline="central">1</text>
+<text class="label" x="215" y="20" text-anchor="middle" dominant-baseline="central">2</text>
+<text class="label" x="249" y="20" text-anchor="middle" dominant-baseline="central">3</text>
+<text class="label" x="283" y="20" text-anchor="middle" dominant-baseline="central">4</text>
+<text class="label" x="317" y="20" text-anchor="middle" dominant-baseline="central">5</text>
+<text class="label" x="351" y="20" text-anchor="middle" dominant-baseline="central">6</text>
+<text class="label" x="385" y="20" text-anchor="middle" dominant-baseline="central">7</text>
+<text class="label" x="419" y="20" text-anchor="middle" dominant-baseline="central">8</text>
+<text class="label" x="453" y="20" text-anchor="middle" dominant-baseline="central">9</text>
+<text class="label" x="487" y="20" text-anchor="middle" dominant-baseline="central">10</text>
+<text class="label" x="521" y="20" text-anchor="middle" dominant-baseline="central">11</text>
+<text class="label" x="555" y="20" text-anchor="middle" dominant-baseline="central">12</text>
+<text class="label" x="589" y="20" text-anchor="middle" dominant-baseline="central">13</text>
+<text class="label" x="623" y="20" text-anchor="middle" dominant-baseline="central">14</text>
+<text class="label" x="657" y="20" text-anchor="middle" dominant-baseline="central">15</text>
 
 <!-- Section labels -->
-<text class="label" x="4" y="44" dominant-baseline="central">Phase 1 — Initiation</text>
-<text class="label" x="4" y="92" dominant-baseline="central">Phase 2 — Design</text>
+<text class="label" x="4" y="44"  dominant-baseline="central">Phase 1 — Initiation</text>
+<text class="label" x="4" y="92"  dominant-baseline="central">Phase 2 — Design</text>
 <text class="label" x="4" y="180" dominant-baseline="central">Phase 3 — Build</text>
 <text class="label" x="4" y="308" dominant-baseline="central">Phase 4 — Testing</text>
 <text class="label" x="4" y="396" dominant-baseline="central">Phase 5 — Cutover</text>
 <text class="label" x="4" y="464" dominant-baseline="central">Milestones</text>
 
-<!-- Work row labels -->
-<text class="label" x="4" y="66" dominant-baseline="central">Initiation &amp; setup</text>
+<!-- Row labels -->
+<text class="label" x="4" y="66"  dominant-baseline="central">Initiation &amp; setup</text>
 <text class="label" x="4" y="114" dominant-baseline="central">Solution architecture</text>
 <text class="label" x="4" y="134" dominant-baseline="central">Detailed requirements</text>
 <text class="label" x="4" y="154" dominant-baseline="central">Integration design</text>
@@ -124,59 +122,64 @@
 <text class="label" x="4" y="418" dominant-baseline="central">Migration batches</text>
 <text class="label" x="4" y="438" dominant-baseline="central">Cutover</text>
 
+
 <!-- Phase span bars -->
-<rect x="164" y="41" width="68"  height="6" rx="2" class="ph-teal"   stroke-width="0.5"/>
-<rect x="198" y="89" width="136" height="6" rx="2" class="ph-blue"   stroke-width="0.5"/>
-<rect x="266" y="177" width="272" height="6" rx="2" class="ph-purple" stroke-width="0.5"/>
-<rect x="470" y="305" width="136" height="6" rx="2" class="ph-amber"  stroke-width="0.5"/>
-<rect x="572" y="393" width="102" height="6" rx="2" class="ph-coral"  stroke-width="0.5"/>
+<rect x="164" y="41"  width="68"  height="6" rx="2" class="ph-teal"/>
+<rect x="198" y="89"  width="136" height="6" rx="2" class="ph-blue"/>
+<rect x="266" y="177" width="272" height="6" rx="2" class="ph-purple"/>
+<rect x="470" y="305" width="136" height="6" rx="2" class="ph-amber"/>
+<rect x="572" y="393" width="102" height="6" rx="2" class="ph-coral"/>
+<!-- Non-critical path bars -->
+<rect x="198" y="107" width="102" height="14" rx="3" class="ph-blue"/>
+<rect x="232" y="147" width="102" height="14" rx="3" class="ph-blue"/>
+<rect x="266" y="215" width="272" height="14" rx="3" class="ph-purple"/>
+<rect x="300" y="235" width="204" height="14" rx="3" class="ph-purple"/>
+<rect x="334" y="255" width="204" height="14" rx="3" class="ph-purple"/>
+<rect x="300" y="275" width="204" height="14" rx="3" class="ph-purple"/>
+<rect x="538" y="363" width="68"  height="14" rx="3" class="ph-amber"/>
+<!-- Critical path bars — phase fill, bold outline -->
+<rect x="164" y="59"  width="68"  height="14" rx="3" style="fill:#9FE1CB; stroke:#042C53; stroke-width:2"/>
+<rect x="198" y="127" width="136" height="14" rx="3" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
+<rect x="266" y="195" width="238" height="14" rx="3" style="fill:#CECBF6; stroke:#042C53; stroke-width:2"/>
+<rect x="470" y="323" width="68"  height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
+<rect x="504" y="343" width="102" height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
+<rect x="572" y="411" width="102" height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
+<rect x="606" y="431" width="68"  height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
 
-<!-- Gantt bars -->
-<rect x="164" y="59" width="68"  height="14" rx="3" class="ph-teal"   stroke-width="0.5"/>
-<rect x="198" y="107" width="102" height="14" rx="3" class="ph-blue"  stroke-width="0.5"/>
-<rect x="198" y="127" width="136" height="14" rx="3" class="ph-blue"  stroke-width="0.5"/>
-<rect x="232" y="147" width="102" height="14" rx="3" class="ph-blue"  stroke-width="0.5"/>
-<rect x="266" y="195" width="238" height="14" rx="3" class="ph-purple" stroke-width="0.5"/>
-<rect x="266" y="215" width="272" height="14" rx="3" class="ph-red"   stroke-width="0.5"/>
-<rect x="300" y="235" width="204" height="14" rx="3" class="ph-purple" stroke-width="0.5"/>
-<rect x="334" y="255" width="204" height="14" rx="3" class="ph-purple" stroke-width="0.5"/>
-<rect x="300" y="275" width="204" height="14" rx="3" class="ph-purple" stroke-width="0.5"/>
-<rect x="470" y="323" width="68"  height="14" rx="3" class="ph-amber" stroke-width="0.5"/>
-<rect x="504" y="343" width="102" height="14" rx="3" class="ph-amber" stroke-width="0.5"/>
-<rect x="538" y="363" width="68"  height="14" rx="3" class="ph-amber" stroke-width="0.5"/>
-<rect x="572" y="411" width="102" height="14" rx="3" class="ph-coral" stroke-width="0.5"/>
-<rect x="606" y="431" width="68"  height="14" rx="3" class="ph-coral" stroke-width="0.5"/>
 
-<!-- Milestone diamonds -->
+<!-- Freeze milestones -->
+<polygon points="334,147 341,154 334,161 327,154" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
+<text style="font-size:9px;fill:#633806" x="334" y="169" text-anchor="middle" dominant-baseline="central">API freeze</text>
+<polygon points="470,195 477,202 470,209 463,202" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
+<text style="font-size:9px;fill:#633806" x="470" y="217" text-anchor="middle" dominant-baseline="central">DM freeze</text>
+
+<!-- Milestones -->
 <rect x="229" y="456" width="6" height="6" transform="rotate(45 232 459)" class="diamond"/>
 <rect x="331" y="456" width="6" height="6" transform="rotate(45 334 459)" class="diamond"/>
 <rect x="433" y="456" width="6" height="6" transform="rotate(45 436 459)" class="diamond"/>
 <rect x="501" y="456" width="6" height="6" transform="rotate(45 504 459)" class="diamond"/>
 <rect x="671" y="456" width="6" height="6" transform="rotate(45 674 459)" class="diamond"/>
-
-<!-- Milestone labels -->
 <text class="label" x="232" y="471" text-anchor="middle" dominant-baseline="central">Kick-off</text>
 <text class="label" x="334" y="471" text-anchor="middle" dominant-baseline="central">Design gate</text>
 <text class="label" x="436" y="471" text-anchor="middle" dominant-baseline="central">Integ. env</text>
 <text class="label" x="504" y="471" text-anchor="middle" dominant-baseline="central">UAT</text>
-<text class="label" x="670" y="471" text-anchor="end" dominant-baseline="central">Go-live</text>
+<text class="label" x="670" y="471" text-anchor="end"    dominant-baseline="central">Go-live</text>
 
-<!-- Fiber deadline label -->
+
 <text class="danger" x="608" y="20" dominant-baseline="central">fiber</text>
 
-<!-- Legend -->
-<rect x="8"   y="484" width="16" height="10" rx="2" class="ph-teal"   stroke-width="0.5"/>
-<text class="label" x="28"  y="489" dominant-baseline="central">Phase 1</text>
-<rect x="88"  y="484" width="16" height="10" rx="2" class="ph-blue"   stroke-width="0.5"/>
-<text class="label" x="108" y="489" dominant-baseline="central">Phase 2</text>
-<rect x="168" y="484" width="16" height="10" rx="2" class="ph-purple" stroke-width="0.5"/>
-<text class="label" x="188" y="489" dominant-baseline="central">Phase 3</text>
-<rect x="248" y="484" width="16" height="10" rx="2" class="ph-amber"  stroke-width="0.5"/>
-<text class="label" x="268" y="489" dominant-baseline="central">Phase 4</text>
-<rect x="328" y="484" width="16" height="10" rx="2" class="ph-coral"  stroke-width="0.5"/>
-<text class="label" x="348" y="489" dominant-baseline="central">Phase 5</text>
-<rect x="408" y="484" width="16" height="10" rx="2" class="ph-red"    stroke-width="0.5"/>
-<text class="label" x="428" y="489" dominant-baseline="central">Critical path</text>
+<rect x="8"   y="484" width="16" height="10" rx="2" class="ph-teal"/>
+<text class="label" x="28"  y="490" dominant-baseline="central">Phase 1</text>
+<rect x="88"  y="484" width="16" height="10" rx="2" class="ph-blue"/>
+<text class="label" x="108" y="490" dominant-baseline="central">Phase 2</text>
+<rect x="168" y="484" width="16" height="10" rx="2" class="ph-purple"/>
+<text class="label" x="188" y="490" dominant-baseline="central">Phase 3</text>
+<rect x="248" y="484" width="16" height="10" rx="2" class="ph-amber"/>
+<text class="label" x="268" y="490" dominant-baseline="central">Phase 4</text>
+<rect x="328" y="484" width="16" height="10" rx="2" class="ph-coral"/>
+<text class="label" x="348" y="490" dominant-baseline="central">Phase 5</text>
+<rect x="408" y="484" width="16" height="10" rx="2" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
+<text class="label" x="428" y="490" dominant-baseline="central">Critical path</text>
 <rect x="527" y="487" width="5"  height="5" transform="rotate(45 530 490)" class="diamond"/>
 <text class="label" x="540" y="490" dominant-baseline="central">Milestone</text>
 <line x1="610" y1="484" x2="610" y2="494" class="deadline"/>

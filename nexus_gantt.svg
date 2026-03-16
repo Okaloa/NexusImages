@@ -132,7 +132,7 @@
 <!-- Non-critical path bars -->
 <rect x="198" y="107" width="102" height="14" rx="3" class="ph-blue"/>
 <rect x="232" y="147" width="102" height="14" rx="3" class="ph-blue"/>
-<rect x="266" y="215" width="272" height="14" rx="3" class="ph-purple"/>
+<rect x="266" y="215" width="204" height="14" rx="3" class="ph-purple"/>
 <rect x="300" y="235" width="204" height="14" rx="3" class="ph-purple"/>
 <rect x="334" y="255" width="204" height="14" rx="3" class="ph-purple"/>
 <rect x="300" y="275" width="204" height="14" rx="3" class="ph-purple"/>

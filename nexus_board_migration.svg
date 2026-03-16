@@ -1,0 +1,60 @@
+<svg width="100%" viewBox="0 0 680 178" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
+<defs>
+<style>
+  .label  { font-size:11px; fill:#3d3d3a; }
+  .grid   { stroke:#D3D1C7; stroke-width:0.5; }
+  .box    { fill:#F1EFE8; stroke:#B4B2A9; }
+  .hdr-coral { fill:#F5C4B3; stroke:#993C1D; stroke-width:0.5; }
+  .hdr-amber { fill:#FAC775; stroke:#854F0B; stroke-width:0.5; }
+  .legend-warn { fill:#FAC775; stroke:#854F0B; stroke-width:0.5; }
+</style>
+</defs>
+<text style="font-size:12px;font-weight:500;fill:#3d3d3a" x="20" y="14" dominant-baseline="central">Migration work</text>
+<rect x="20" y="24" width="640" height="132" fill="none" stroke="#B4B2A9" stroke-width="0.5"/>
+<rect x="20"  y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="60"  y="48" text-anchor="middle" dominant-baseline="central">Identified</text>
+<rect x="100" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="140" y="40" text-anchor="middle" dominant-baseline="central">Extraction</text>
+<text class="label" x="140" y="58" text-anchor="middle" dominant-baseline="central">rules</text>
+<rect x="180" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="220" y="40" text-anchor="middle" dominant-baseline="central">Extraction</text>
+<text class="label" x="220" y="58" text-anchor="middle" dominant-baseline="central">complete</text>
+<rect x="260" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="300" y="40" text-anchor="middle" dominant-baseline="central">Transform.</text>
+<text class="label" x="300" y="58" text-anchor="middle" dominant-baseline="central">rules</text>
+<rect x="340" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="380" y="40" text-anchor="middle" dominant-baseline="central">Transform.</text>
+<text class="label" x="380" y="58" text-anchor="middle" dominant-baseline="central">complete</text>
+<rect x="420" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="460" y="48" text-anchor="middle" dominant-baseline="central">Validation</text>
+<rect x="500" y="24" width="80" height="48" class="hdr-amber"/>
+<text class="label" x="540" y="48" text-anchor="middle" dominant-baseline="central">Exceptions</text>
+<rect x="580" y="24" width="80" height="48" class="hdr-coral"/>
+<text class="label" x="620" y="48" text-anchor="middle" dominant-baseline="central">Signed off</text>
+<line x1="20"  y1="72" x2="660" y2="72" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="100" y1="72" x2="100" y2="156" class="grid"/>
+<line x1="180" y1="72" x2="180" y2="156" class="grid"/>
+<line x1="260" y1="72" x2="260" y2="156" class="grid"/>
+<line x1="340" y1="72" x2="340" y2="156" class="grid"/>
+<line x1="420" y1="72" x2="420" y2="156" class="grid"/>
+<line x1="500" y1="72" x2="500" y2="156" class="grid"/>
+<line x1="580" y1="72" x2="580" y2="156" class="grid"/>
+<rect x="24"  y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="60"  y="87" text-anchor="middle" dominant-baseline="central">Legacy SIP</text>
+<rect x="104" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="140" y="87" text-anchor="middle" dominant-baseline="central">Fiber early</text>
+<rect x="184" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="220" y="87" text-anchor="middle" dominant-baseline="central">Business B</text>
+<rect x="264" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="300" y="87" text-anchor="middle" dominant-baseline="central">Business A</text>
+<rect x="344" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="380" y="87" text-anchor="middle" dominant-baseline="central">Resid. B</text>
+<rect x="504" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="540" y="87" text-anchor="middle" dominant-baseline="central">Resid. A</text>
+<rect x="504" y="102" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="540" y="113" text-anchor="middle" dominant-baseline="central">Business X</text>
+<rect x="584" y="76" width="72" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="620" y="87" text-anchor="middle" dominant-baseline="central">Pilot</text>
+<rect x="20"  y="164" width="12" height="12" rx="2" class="legend-warn"/>
+<text class="label" x="36" y="170" dominant-baseline="central">Wait state — batches stalled on unresolved data exceptions</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg width="100%" viewBox="0 0 680 175" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
+<defs>
+<style>
+  .label  { font-size:11px; fill:#3d3d3a; }
+  .grid   { stroke:#D3D1C7; stroke-width:0.5; }
+  .box    { fill:#F1EFE8; stroke:#B4B2A9; }
+  .hdr-teal  { fill:#9FE1CB; stroke:#0F6E56; stroke-width:0.5; }
+  .hdr-amber { fill:#FAC775; stroke:#854F0B; stroke-width:0.5; }
+  .warn-border { fill:#F1EFE8; stroke:#854F0B; stroke-width:1.5; }
+  .legend-warn { fill:#FAC775; stroke:#854F0B; stroke-width:0.5; }
+</style>
+</defs>
+<text style="font-size:12px;font-weight:500;fill:#3d3d3a" x="20" y="14" dominant-baseline="central">Feature work</text>
+<rect x="20" y="24" width="637" height="124" fill="none" stroke="#B4B2A9" stroke-width="0.5"/>
+<rect x="20"  y="24" width="91" height="36" rx="0" class="hdr-teal"/>
+<text class="label" x="65"  y="42" text-anchor="middle" dominant-baseline="central">Funnel</text>
+<rect x="111" y="24" width="91" height="36" class="hdr-teal"/>
+<text class="label" x="156" y="42" text-anchor="middle" dominant-baseline="central">Refined</text>
+<rect x="202" y="24" width="91" height="36" class="hdr-teal"/>
+<text class="label" x="247" y="42" text-anchor="middle" dominant-baseline="central">Ready</text>
+<rect x="293" y="24" width="91" height="36" class="hdr-teal"/>
+<text class="label" x="338" y="42" text-anchor="middle" dominant-baseline="central">In dev</text>
+<rect x="384" y="24" width="91" height="36" class="hdr-teal"/>
+<text class="label" x="429" y="42" text-anchor="middle" dominant-baseline="central">In review</text>
+<rect x="475" y="24" width="91" height="36" class="hdr-amber"/>
+<text class="label" x="520" y="42" text-anchor="middle" dominant-baseline="central">Testing</text>
+<rect x="566" y="24" width="91" height="36" class="hdr-teal"/>
+<text class="label" x="611" y="42" text-anchor="middle" dominant-baseline="central">Done</text>
+<line x1="20"  y1="60" x2="657" y2="60" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="111" y1="60" x2="111" y2="148" class="grid"/>
+<line x1="202" y1="60" x2="202" y2="148" class="grid"/>
+<line x1="293" y1="60" x2="293" y2="148" class="grid"/>
+<line x1="384" y1="60" x2="384" y2="148" class="grid"/>
+<line x1="475" y1="60" x2="475" y2="148" class="grid"/>
+<line x1="566" y1="60" x2="566" y2="148" class="grid"/>
+<rect x="24"  y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="65"  y="75" text-anchor="middle" dominant-baseline="central">Addr. check</text>
+<rect x="24"  y="90" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="65"  y="101" text-anchor="middle" dominant-baseline="central">Credit check</text>
+<rect x="115" y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="156" y="75" text-anchor="middle" dominant-baseline="central">Order config</text>
+<rect x="206" y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="247" y="75" text-anchor="middle" dominant-baseline="central">Product sel.</text>
+<rect x="206" y="90" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="247" y="101" text-anchor="middle" dominant-baseline="central">Appointment</text>
+<rect x="297" y="64" width="83" height="22" rx="3" class="warn-border"/>
+<text class="label" x="338" y="75" text-anchor="middle" dominant-baseline="central">Order conf.</text>
+<rect x="297" y="90" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="338" y="101" text-anchor="middle" dominant-baseline="central">Status view</text>
+<rect x="388" y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="429" y="75" text-anchor="middle" dominant-baseline="central">Promo engine</text>
+<rect x="479" y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="520" y="75" text-anchor="middle" dominant-baseline="central">Create order</text>
+<rect x="479" y="90" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="520" y="101" text-anchor="middle" dominant-baseline="central">Qualify cust.</text>
+<rect x="570" y="64" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="611" y="75" text-anchor="middle" dominant-baseline="central">Login flow</text>
+<rect x="570" y="90" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="611" y="101" text-anchor="middle" dominant-baseline="central">Nav menu</text>
+<rect x="570" y="116" width="83" height="22" rx="3" class="box" stroke-width="0.5"/>
+<text class="label" x="611" y="127" text-anchor="middle" dominant-baseline="central">Search bar</text>
+<rect x="20"  y="156" width="12" height="12" rx="2" class="legend-warn"/>
+<text class="label" x="36" y="162" dominant-baseline="central">Wait state — work piling up in testing</text>
+<rect x="230" y="156" width="20" height="12" rx="2" class="warn-border"/>
+<text class="label" x="255" y="162" dominant-baseline="central">Blocked</text>
+</svg>

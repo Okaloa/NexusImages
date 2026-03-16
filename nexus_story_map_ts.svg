@@ -34,7 +34,7 @@
 <text class="act" x="145" y="14" text-anchor="middle" dominant-baseline="central">Create order</text>
 <text class="act" x="242" y="14" text-anchor="middle" dominant-baseline="central">Manage order</text>
 <text class="act" x="339" y="14" text-anchor="middle" dominant-baseline="central">Provision</text>
-<text class="act" x="436" y="14" text-anchor="middle" dominant-baseline="central">Schedule & dispatch</text>
+<text class="act" x="436" y="14" text-anchor="middle" dominant-baseline="central">Schedule &amp; dispatch</text>
 <text class="act" x="533" y="14" text-anchor="middle" dominant-baseline="central">Activate</text>
 <text class="act" x="630" y="14" text-anchor="middle" dominant-baseline="central">Handle fallouts</text>
 <rect x="0" y="26" width="680" height="18" fill="#E1F5EE"/>

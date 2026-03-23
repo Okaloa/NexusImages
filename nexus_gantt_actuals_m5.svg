@@ -185,12 +185,12 @@
 <circle cx="158" cy="242" r="5" fill="#FFBB00" stroke="white" stroke-width="0.8"/>
 <circle cx="158" cy="262" r="5" fill="#FFBB00" stroke="white" stroke-width="0.8"/>
 <circle cx="158" cy="282" r="5" fill="#FFBB00" stroke="white" stroke-width="0.8"/>
-<circle cx="408" cy="484" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
-<text class="label" x="416" y="490" dominant-baseline="central">Green</text>
-<circle cx="456" cy="484" r="5" fill="#FFBB00" stroke="white" stroke-width="0.8"/>
-<text class="label" x="464" y="490" dominant-baseline="central">Amber</text>
-<circle cx="506" cy="484" r="5" fill="#FF0000" stroke="white" stroke-width="0.8"/>
-<text class="label" x="514" y="490" dominant-baseline="central">Red</text>
+
+<circle cx="158" cy="330" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
+<circle cx="158" cy="350" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
+<circle cx="158" cy="370" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
+<circle cx="158" cy="418" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
+<circle cx="158" cy="438" r="5" fill="#33CC00" stroke="white" stroke-width="0.8"/>
 <!-- ACTUAL PROGRESS BARS AND SLIP INDICATORS -->
 <!-- Initiation: complete -->
 <rect x="164" y="41"  width="68" height="6"  rx="2" class="act-teal"/>

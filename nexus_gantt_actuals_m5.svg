@@ -174,6 +174,24 @@
 <polygon points="470,195 477,202 470,209 463,202" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
 <text style="font-size:9px;fill:#633806" x="470" y="217" text-anchor="middle" dominant-baseline="central">DM freeze</text>
 
+<!-- ACTUAL PROGRESS BARS AND SLIP INDICATORS -->
+<!-- Initiation: complete -->
+<rect x="164" y="41"  width="68" height="6"  rx="2" class="act-teal"/>
+<rect x="164" y="59"  width="68" height="14" rx="3" class="act-teal"/>
+<!-- Architecture: in progress, running 1m late -->
+<rect x="198" y="107" width="102" height="14" rx="3" class="act-blue"/>
+<rect x="300" y="107" width="34"  height="14" rx="3" class="slip"/>
+<!-- Requirements (CP): in progress, just past planned end -->
+<rect x="198" y="127" width="136" height="14" rx="3" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
+<rect x="334" y="127" width="20"  height="14" rx="3" class="slip"/>
+<!-- Integration design: started 1m late -->
+<rect x="266" y="147" width="68"  height="14" rx="3" class="act-blue"/>
+<rect x="232" y="147" width="34"  height="14" rx="3" class="slip"/>
+<!-- Order mgmt/UI (CP): started m4, 2m in -->
+<rect x="266" y="195" width="68"  height="14" rx="3" style="fill:#CECBF6; stroke:#042C53; stroke-width:2"/>
+<!-- Provisioning: started m4, 2m in -->
+<rect x="266" y="215" width="68"  height="14" rx="3" class="act-purple"/>
+
 <!-- Milestones -->
 <rect x="229" y="456" width="6" height="6" transform="rotate(45 232 459)" class="diamond"/>
 <rect x="331" y="456" width="6" height="6" transform="rotate(45 334 459)" class="diamond"/>

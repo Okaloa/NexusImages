@@ -1,0 +1,153 @@
+<svg width="100%" viewBox="0 0 680 610" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
+<defs><style>
+.hdr{font-size:10px;font-weight:500;fill:#5F5E5A}
+.id {font-size:10px;fill:#888780}
+.ttl{font-size:11px;font-weight:500;fill:#2C2C2A}
+.sub{font-size:10px;fill:#5F5E5A}
+.own{font-size:10px;fill:#444441}
+.bdg{font-size:10px;font-weight:500}
+</style></defs>
+<rect x="0" y="0" width="680" height="26" fill="#D3D1C7"/>
+<text class="hdr" x="4" y="13" dominant-baseline="central">ID</text>
+<text class="hdr" x="52" y="13" dominant-baseline="central">Priority</text>
+<text class="hdr" x="114" y="13" dominant-baseline="central">Status</text>
+<text class="hdr" x="178" y="13" dominant-baseline="central">Description &amp; impact</text>
+<text class="hdr" x="508" y="13" dominant-baseline="central">Owner</text>
+<text class="hdr" x="604" y="13" dominant-baseline="central">Raised</text>
+<line x1="48" y1="0" x2="48" y2="610" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="110" y1="0" x2="110" y2="610" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="174" y1="0" x2="174" y2="610" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="504" y1="0" x2="504" y2="610" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="600" y1="0" x2="600" y2="610" stroke="#B4B2A9" stroke-width="0.5"/>
+<rect x="0" y="26" width="680" height="58" fill="#ffffff"/>
+<text class="id" x="4" y="55" dominant-baseline="central">ISS-01</text>
+<rect x="52" y="36" width="54" height="14" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text class="bdg" x="79" y="43" text-anchor="middle" dominant-baseline="central" fill="#791F1F">Critical</text>
+<rect x="114" y="36" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="43" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="40" dominant-baseline="central">Detailed requirements not baselined at design gate</text>
+<text class="sub" x="178" y="54" dominant-baseline="central">Build teams working against unstable requirements.</text>
+<text class="sub" x="178" y="67" dominant-baseline="central">Four workstreams blocked from starting.</text>
+<text class="own" x="508" y="48" dominant-baseline="central">Priya</text>
+<text class="own" x="508" y="61" dominant-baseline="central">Nair</text>
+<text class="sub" x="604" y="55" dominant-baseline="central">M5</text>
+<rect x="0" y="84" width="680" height="58" fill="#F1EFE8"/>
+<text class="id" x="4" y="113" dominant-baseline="central">ISS-02</text>
+<rect x="52" y="94" width="54" height="14" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text class="bdg" x="79" y="101" text-anchor="middle" dominant-baseline="central" fill="#791F1F">Critical</text>
+<rect x="114" y="94" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="101" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="98" dominant-baseline="central">Integration design started 1 month late due to architecture delay</text>
+<text class="sub" x="178" y="112" dominant-baseline="central">Interface specs not available. Provisioning, billing,</text>
+<text class="sub" x="178" y="125" dominant-baseline="central">field cannot start. Forecast finish: month 7.</text>
+<text class="own" x="508" y="106" dominant-baseline="central">Tom</text>
+<text class="own" x="508" y="119" dominant-baseline="central">Bakker</text>
+<text class="sub" x="604" y="113" dominant-baseline="central">M4</text>
+<rect x="0" y="142" width="680" height="58" fill="#ffffff"/>
+<text class="id" x="4" y="171" dominant-baseline="central">ISS-03</text>
+<rect x="52" y="152" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="159" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="152" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="159" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="156" dominant-baseline="central">Provisioning API specification is a draft — throughput limits unconfirmed</text>
+<text class="sub" x="178" y="170" dominant-baseline="central">Integration team building against unverified spec.</text>
+<text class="sub" x="178" y="183" dominant-baseline="central">Behaviour under load unknown. Risk of late rework.</text>
+<text class="own" x="508" y="164" dominant-baseline="central">Leila</text>
+<text class="own" x="508" y="177" dominant-baseline="central">Ahmadi</text>
+<text class="sub" x="604" y="171" dominant-baseline="central">M3</text>
+<rect x="0" y="200" width="680" height="58" fill="#F1EFE8"/>
+<text class="id" x="4" y="229" dominant-baseline="central">ISS-04</text>
+<rect x="52" y="210" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="217" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="210" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="217" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="214" dominant-baseline="central">Billing/field and back-office workstreams not started</text>
+<text class="sub" x="178" y="228" dominant-baseline="central">Dependent on integration design outputs.</text>
+<text class="sub" x="178" y="241" dominant-baseline="central">Every week further compresses the build window.</text>
+<text class="own" x="508" y="222" dominant-baseline="central">Marcus</text>
+<text class="own" x="508" y="235" dominant-baseline="central">Obi</text>
+<text class="sub" x="604" y="229" dominant-baseline="central">M5</text>
+<rect x="0" y="258" width="680" height="58" fill="#ffffff"/>
+<text class="id" x="4" y="287" dominant-baseline="central">ISS-05</text>
+<rect x="52" y="268" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="275" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="268" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="275" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="272" dominant-baseline="central">No integration environment available for cross-team testing</text>
+<text class="sub" x="178" y="286" dominant-baseline="central">Teams testing in isolation. Interface incompatibilities</text>
+<text class="sub" x="178" y="299" dominant-baseline="central">will not surface until SIT.</text>
+<text class="own" x="508" y="280" dominant-baseline="central">Tom</text>
+<text class="own" x="508" y="293" dominant-baseline="central">Bakker</text>
+<text class="sub" x="604" y="287" dominant-baseline="central">M4</text>
+<rect x="0" y="316" width="680" height="58" fill="#F1EFE8"/>
+<text class="id" x="4" y="345" dominant-baseline="central">ISS-06</text>
+<rect x="52" y="326" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="333" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="326" width="48" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="bdg" x="138" y="333" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Watch</text>
+<text class="ttl" x="178" y="330" dominant-baseline="central">Retail agents absent from requirements process</text>
+<text class="sub" x="178" y="344" dominant-baseline="central">Retail workflow not captured. Risk of UAT rejection.</text>
+<text class="sub" x="178" y="357" dominant-baseline="central">Proxy attended workshops — coverage incomplete.</text>
+<text class="own" x="508" y="338" dominant-baseline="central">Priya</text>
+<text class="own" x="508" y="351" dominant-baseline="central">Nair</text>
+<text class="sub" x="604" y="345" dominant-baseline="central">M3</text>
+<rect x="0" y="374" width="680" height="58" fill="#ffffff"/>
+<text class="id" x="4" y="403" dominant-baseline="central">ISS-07</text>
+<rect x="52" y="384" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="391" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="384" width="48" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="bdg" x="138" y="391" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Watch</text>
+<text class="ttl" x="178" y="388" dominant-baseline="central">Field engineer mobile interface untested on Windows Mobile</text>
+<text class="sub" x="178" y="402" dominant-baseline="central">800 engineers carry mixed Android/Windows Mobile fleet.</text>
+<text class="sub" x="178" y="415" dominant-baseline="central">No test plan for Windows Mobile devices.</text>
+<text class="own" x="508" y="396" dominant-baseline="central">Tom</text>
+<text class="own" x="508" y="409" dominant-baseline="central">Bakker</text>
+<text class="sub" x="604" y="403" dominant-baseline="central">M4</text>
+<rect x="0" y="432" width="680" height="58" fill="#F1EFE8"/>
+<text class="id" x="4" y="461" dominant-baseline="central">ISS-08</text>
+<rect x="52" y="442" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="449" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="442" width="48" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="bdg" x="138" y="449" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Watch</text>
+<text class="ttl" x="178" y="446" dominant-baseline="central">Legacy data not profiled — migration exception categories unknown</text>
+<text class="sub" x="178" y="460" dominant-baseline="central">Transformation rules written against 50k sample.</text>
+<text class="sub" x="178" y="473" dominant-baseline="central">Full 4.2m record profile unknown.</text>
+<text class="own" x="508" y="454" dominant-baseline="central">Marcus</text>
+<text class="own" x="508" y="467" dominant-baseline="central">Obi</text>
+<text class="sub" x="604" y="461" dominant-baseline="central">M5</text>
+<rect x="0" y="490" width="680" height="58" fill="#ffffff"/>
+<text class="id" x="4" y="519" dominant-baseline="central">ISS-09</text>
+<rect x="52" y="500" width="54" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="bdg" x="79" y="507" text-anchor="middle" dominant-baseline="central" fill="#633806">High</text>
+<rect x="114" y="500" width="48" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="bdg" x="138" y="507" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Open</text>
+<text class="ttl" x="178" y="504" dominant-baseline="central">Tom Bakker overloaded — architecture queries from 6 teams unmanaged</text>
+<text class="sub" x="178" y="518" dominant-baseline="central">No formal triage for architecture decisions.</text>
+<text class="sub" x="178" y="531" dominant-baseline="central">Stories blocked across multiple teams.</text>
+<text class="own" x="508" y="512" dominant-baseline="central">Marcus</text>
+<text class="own" x="508" y="525" dominant-baseline="central">Obi</text>
+<text class="sub" x="604" y="519" dominant-baseline="central">M4</text>
+<rect x="0" y="548" width="680" height="58" fill="#F1EFE8"/>
+<text class="id" x="4" y="577" dominant-baseline="central">ISS-10</text>
+<rect x="52" y="558" width="54" height="14" rx="3" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="bdg" x="79" y="565" text-anchor="middle" dominant-baseline="central" fill="#27500A">Low</text>
+<rect x="114" y="558" width="48" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text class="bdg" x="138" y="565" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Watch</text>
+<text class="ttl" x="178" y="562" dominant-baseline="central">Billing platform upgrade dependency — funding not confirmed</text>
+<text class="sub" x="178" y="576" dominant-baseline="central">Billing integration requires platform upgrade.</text>
+<text class="sub" x="178" y="589" dominant-baseline="central">Separate budget approval needed by month 7.</text>
+<text class="own" x="508" y="570" dominant-baseline="central">Marcus</text>
+<text class="own" x="508" y="583" dominant-baseline="central">Obi</text>
+<text class="sub" x="604" y="577" dominant-baseline="central">M2</text>
+<rect x="0" y="0" width="680" height="610" fill="none" stroke="#B4B2A9" stroke-width="0.5"/>
+<line x1="0" y1="26" x2="680" y2="26" stroke="#888780" stroke-width="0.8"/>
+<line x1="0" y1="84" x2="680" y2="84" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="142" x2="680" y2="142" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="200" x2="680" y2="200" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="258" x2="680" y2="258" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="316" x2="680" y2="316" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="374" x2="680" y2="374" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="432" x2="680" y2="432" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="490" x2="680" y2="490" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="0" y1="548" x2="680" y2="548" stroke="#D3D1C7" stroke-width="0.5"/>
+</svg>

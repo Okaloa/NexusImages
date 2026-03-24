@@ -138,13 +138,13 @@
 <rect x="300" y="275" width="204" height="14" rx="3" class="ph-purple"/>
 <rect x="538" y="363" width="68"  height="14" rx="3" class="ph-amber"/>
 <!-- Critical path bars — phase fill, bold outline -->
-<rect x="164" y="59"  width="68"  height="14" rx="3" class="ph-teal"/>
-<rect x="198" y="127" width="136" height="14" rx="3" class="ph-blue"/>
-<rect x="266" y="195" width="238" height="14" rx="3" class="ph-purple"/>
-<rect x="470" y="323" width="68"  height="14" rx="3" class="ph-amber"/>
-<rect x="504" y="343" width="102" height="14" rx="3" class="ph-amber"/>
-<rect x="572" y="411" width="102" height="14" rx="3" class="ph-coral"/>
-<rect x="606" y="431" width="68"  height="14" rx="3" class="ph-coral"/>
+<rect x="164" y="59"  width="68"  height="14" rx="3" style="fill:#9FE1CB; stroke:#042C53; stroke-width:2"/>
+<rect x="198" y="127" width="136" height="14" rx="3" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
+<rect x="266" y="195" width="238" height="14" rx="3" style="fill:#CECBF6; stroke:#042C53; stroke-width:2"/>
+<rect x="470" y="323" width="68"  height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
+<rect x="504" y="343" width="102" height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
+<rect x="572" y="411" width="102" height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
+<rect x="606" y="431" width="68"  height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
 
 
 <!-- Freeze milestones -->
@@ -178,8 +178,8 @@
 <text class="label" x="268" y="490" dominant-baseline="central">Phase 4</text>
 <rect x="328" y="484" width="16" height="10" rx="2" class="ph-coral"/>
 <text class="label" x="348" y="490" dominant-baseline="central">Phase 5</text>
-<rect x="408" y="484" width="16" height="10" rx="2" class="ph-blue"/>
-
+<rect x="408" y="484" width="16" height="10" rx="2" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
+<text class="label" x="428" y="490" dominant-baseline="central">Critical path</text>
 <rect x="527" y="487" width="5"  height="5" transform="rotate(45 530 490)" class="diamond"/>
 <text class="label" x="540" y="490" dominant-baseline="central">Milestone</text>
 <line x1="610" y1="484" x2="610" y2="494" class="deadline"/>

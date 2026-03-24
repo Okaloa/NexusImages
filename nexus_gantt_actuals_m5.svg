@@ -157,13 +157,13 @@
 <rect x="300" y="275" width="204" height="14" rx="3" class="ph-purple"/>
 <rect x="538" y="363" width="68"  height="14" rx="3" class="ph-amber"/>
 <!-- Critical path bars — phase fill, bold outline -->
-<rect x="164" y="59"  width="68"  height="14" rx="3" style="fill:#9FE1CB; stroke:#042C53; stroke-width:2"/>
-<rect x="198" y="127" width="136" height="14" rx="3" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
-<rect x="266" y="195" width="238" height="14" rx="3" style="fill:#CECBF6; stroke:#042C53; stroke-width:2"/>
-<rect x="470" y="323" width="68"  height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
-<rect x="504" y="343" width="102" height="14" rx="3" style="fill:#FAC775; stroke:#042C53; stroke-width:2"/>
-<rect x="572" y="411" width="102" height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
-<rect x="606" y="431" width="68"  height="14" rx="3" style="fill:#F5C4B3; stroke:#042C53; stroke-width:2"/>
+<rect x="164" y="59"  width="68"  height="14" rx="3" class="ph-teal"/>
+<rect x="198" y="127" width="136" height="14" rx="3" class="ph-blue"/>
+<rect x="266" y="195" width="238" height="14" rx="3" class="ph-purple"/>
+<rect x="470" y="323" width="68"  height="14" rx="3" class="ph-amber"/>
+<rect x="504" y="343" width="102" height="14" rx="3" class="ph-amber"/>
+<rect x="572" y="411" width="102" height="14" rx="3" class="ph-coral"/>
+<rect x="606" y="431" width="68"  height="14" rx="3" class="ph-coral"/>
 
 
 
@@ -205,7 +205,7 @@
 <rect x="266" y="147" width="68"  height="14" rx="3" class="act-blue"/>
 <rect x="232" y="147" width="34"  height="14" rx="3" class="slip"/>
 <!-- Order mgmt/UI (CP): started m4, 2m in -->
-<rect x="266" y="195" width="68"  height="14" rx="3" style="fill:#CECBF6; stroke:#042C53; stroke-width:2"/>
+<rect x="266" y="195" width="68"  height="14" rx="3" class="act-purple"/>
 <!-- Provisioning: started m4, 2m in -->
 <rect x="266" y="215" width="68"  height="14" rx="3" class="act-purple"/>
 
@@ -228,8 +228,8 @@
 <text class="label" x="28"  y="490" dominant-baseline="central">Complete</text>
 <rect x="100" y="484" width="16" height="10" rx="2" style="fill:none;stroke:#B4B2A9;stroke-width:1;stroke-dasharray:3 2"/>
 <text class="label" x="120" y="490" dominant-baseline="central">Planned</text>
-<rect x="188" y="484" width="16" height="10" rx="2" style="fill:#B5D4F4; stroke:#042C53; stroke-width:2"/>
-<text class="label" x="208" y="490" dominant-baseline="central">Critical path</text>
+
+
 <rect x="300" y="484" width="16" height="10" rx="2" class="slip"/>
 <text class="label" x="320" y="490" dominant-baseline="central">Slipping</text>
 <line x1="398" y1="484" x2="398" y2="494" style="stroke:#185FA5;stroke-width:1.5;stroke-dasharray:4 3"/>

@@ -1,82 +1,83 @@
 <svg width="100%" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" style="font-family:sans-serif">
 <defs>
-<style>.nl{font-size:11px;font-weight:500} .dur{font-size:9px;opacity:0.8} .ms{font-size:9px;font-style:italic}</style>
+<style>.nl{font-size:11px;font-weight:500} .ms{font-size:9px;font-style:italic}</style>
 <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
 </defs>
-<path d="M74,86 L78,86 L78,22 L82,22" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M74,86 L82,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M152,22 L156,22 L156,54 L160,54" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M152,86 L156,86 L156,54 L160,54" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M230,54 L236,54 L236,86 L235,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M249,86 L252,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M242,93 L242,118 L252,118" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M242,93 L242,150 L252,150" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M242,93 L242,182 L252,182" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M352,86 L359,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M322,182 L366,182 L366,93" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M322,118 L370,118 L370,90 L380,90" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M322,150 L376,150 L376,96 L380,96" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M373,86 L380,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M442,86 L454,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M442,86 L448,86 L448,118 L454,118" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M516,86 L528,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M516,118 L522,118 L522,86 L528,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M590,86 L600,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<path d="M662,86 L666,86" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
-<rect x="4" y="74" width="70" height="24" rx="3" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
-<text class="nl" x="39" y="82" text-anchor="middle" dominant-baseline="central" fill="#085041">Initiation</text>
-<text class="dur" x="39" y="92" text-anchor="middle" dominant-baseline="central" fill="#085041">2m</text>
-<rect x="82" y="10" width="70" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<text class="nl" x="117" y="18" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Architecture</text>
-<text class="dur" x="117" y="28" text-anchor="middle" dominant-baseline="central" fill="#0C447C">3m</text>
-<rect x="82" y="74" width="70" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<text class="nl" x="117" y="82" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Requirements</text>
-<text class="dur" x="117" y="92" text-anchor="middle" dominant-baseline="central" fill="#0C447C">4m</text>
-<rect x="160" y="42" width="70" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<text class="nl" x="195" y="50" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Integ. design</text>
-<text class="dur" x="195" y="60" text-anchor="middle" dominant-baseline="central" fill="#0C447C">3m</text>
-<rect x="252" y="74" width="100" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text class="nl" x="302" y="82" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Order mgmt</text>
-<text class="dur" x="302" y="92" text-anchor="middle" dominant-baseline="central" fill="#3C3489">7m</text>
-<rect x="252" y="106" width="70" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text class="nl" x="287" y="114" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Provisioning</text>
-<text class="dur" x="287" y="124" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
-<rect x="252" y="138" width="70" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text class="nl" x="287" y="146" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Other build</text>
-<text class="dur" x="287" y="156" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
-<rect x="252" y="170" width="70" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text class="nl" x="287" y="178" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Mig. dev.</text>
-<text class="dur" x="287" y="188" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
-<rect x="380" y="74" width="62" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
-<text class="nl" x="411" y="82" text-anchor="middle" dominant-baseline="central" fill="#633806">SIT</text>
-<text class="dur" x="411" y="92" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
-<rect x="454" y="74" width="62" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
-<text class="nl" x="485" y="82" text-anchor="middle" dominant-baseline="central" fill="#633806">UAT</text>
-<text class="dur" x="485" y="92" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
-<rect x="454" y="106" width="62" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
-<text class="nl" x="485" y="114" text-anchor="middle" dominant-baseline="central" fill="#633806">Perf. test</text>
-<text class="dur" x="485" y="124" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
-<rect x="528" y="74" width="62" height="24" rx="3" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
-<text class="nl" x="559" y="82" text-anchor="middle" dominant-baseline="central" fill="#712B13">Migration</text>
-<text class="dur" x="559" y="92" text-anchor="middle" dominant-baseline="central" fill="#712B13">2m</text>
-<rect x="600" y="74" width="62" height="24" rx="3" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
-<text class="nl" x="631" y="82" text-anchor="middle" dominant-baseline="central" fill="#712B13">Cutover</text>
-<text class="dur" x="631" y="92" text-anchor="middle" dominant-baseline="central" fill="#712B13">1m</text>
-<polygon points="242,79 249,86 242,93 235,86" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
-<text class="ms" x="242" y="100" text-anchor="middle" dominant-baseline="central" fill="#633806">API freeze</text>
-<polygon points="366,79 373,86 366,93 359,86" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
-<text class="ms" x="366" y="100" text-anchor="middle" dominant-baseline="central" fill="#633806">DM freeze</text>
-<circle cx="672" cy="86" r="6" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
-<rect x="4" y="230" width="12" height="12" rx="2" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
-<text style="font-size:11px" x="20" y="236" dominant-baseline="central" fill="#3d3d3a">Phase 1</text>
-<rect x="74" y="230" width="12" height="12" rx="2" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<text style="font-size:11px" x="90" y="236" dominant-baseline="central" fill="#3d3d3a">Phase 2</text>
-<rect x="148" y="230" width="12" height="12" rx="2" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text style="font-size:11px" x="164" y="236" dominant-baseline="central" fill="#3d3d3a">Phase 3</text>
-<rect x="222" y="230" width="12" height="12" rx="2" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
-<text style="font-size:11px" x="238" y="236" dominant-baseline="central" fill="#3d3d3a">Phase 4</text>
-<rect x="296" y="230" width="12" height="12" rx="2" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
-<text style="font-size:11px" x="312" y="236" dominant-baseline="central" fill="#3d3d3a">Phase 5</text>
-<polygon points="378,230 384,236 378,242 372,236" fill="#FAC775" stroke="#854F0B" stroke-width="1"/>
-<text style="font-size:11px" x="390" y="236" dominant-baseline="central" fill="#3d3d3a">Milestone</text>
+<path d="M72,100 L76,100 L76,52 L82,52" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M72,100 L82,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M72,100 L76,100 L76,148 L82,148" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M150,52 L154,52 L154,100 L161,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M150,100 L161,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M150,148 L160,148 L160,112 L188,112" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M175,100 L188,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M168,107 L168,132 L188,132" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M168,107 L168,164 L188,164" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M168,107 L168,196 L188,196" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M278,100 L283,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M256,132 L304,132 L304,100 L310,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M256,164 L300,164 L300,104 L310,104" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M256,196 L290,196 L290,107" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M297,100 L310,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M368,100 L372,100 L372,76 L376,76" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M368,100 L372,100 L372,124 L376,124" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M434,76 L438,76 L438,100 L442,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M434,124 L438,124 L438,100 L442,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M500,100 L508,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M566,100 L570,100" fill="none" stroke="#888780" stroke-width="0.8" marker-end="url(#arrow)"/>
+<rect x="4" y="88" width="68" height="24" rx="3" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="nl" x="38" y="95" text-anchor="middle" dominant-baseline="central" fill="#085041">Initiation</text>
+<text style="font-size:9px;opacity:0.8" x="38" y="107" text-anchor="middle" dominant-baseline="central" fill="#085041">2m</text>
+<rect x="82" y="40" width="68" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text class="nl" x="116" y="47" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Architecture</text>
+<text style="font-size:9px;opacity:0.8" x="116" y="59" text-anchor="middle" dominant-baseline="central" fill="#0C447C">3m</text>
+<rect x="82" y="88" width="68" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text class="nl" x="116" y="95" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Integ. design</text>
+<text style="font-size:9px;opacity:0.8" x="116" y="107" text-anchor="middle" dominant-baseline="central" fill="#0C447C">3m</text>
+<rect x="82" y="136" width="68" height="24" rx="3" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text class="nl" x="116" y="143" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Requirements</text>
+<text style="font-size:9px;opacity:0.8" x="116" y="155" text-anchor="middle" dominant-baseline="central" fill="#0C447C">4m</text>
+<rect x="188" y="88" width="90" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text class="nl" x="233" y="95" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Order mgmt</text>
+<text style="font-size:9px;opacity:0.8" x="233" y="107" text-anchor="middle" dominant-baseline="central" fill="#3C3489">7m</text>
+<rect x="188" y="120" width="68" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text class="nl" x="222" y="127" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Provisioning</text>
+<text style="font-size:9px;opacity:0.8" x="222" y="139" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
+<rect x="188" y="152" width="68" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text class="nl" x="222" y="159" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Other build</text>
+<text style="font-size:9px;opacity:0.8" x="222" y="171" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
+<rect x="188" y="184" width="68" height="24" rx="3" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text class="nl" x="222" y="191" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Mig. dev.</text>
+<text style="font-size:9px;opacity:0.8" x="222" y="203" text-anchor="middle" dominant-baseline="central" fill="#3C3489">6m</text>
+<rect x="310" y="88" width="58" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text class="nl" x="339" y="95" text-anchor="middle" dominant-baseline="central" fill="#633806">SIT</text>
+<text style="font-size:9px;opacity:0.8" x="339" y="107" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
+<rect x="376" y="64" width="58" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text class="nl" x="405" y="71" text-anchor="middle" dominant-baseline="central" fill="#633806">UAT</text>
+<text style="font-size:9px;opacity:0.8" x="405" y="83" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
+<rect x="376" y="112" width="58" height="24" rx="3" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text class="nl" x="405" y="119" text-anchor="middle" dominant-baseline="central" fill="#633806">Perf. test</text>
+<text style="font-size:9px;opacity:0.8" x="405" y="131" text-anchor="middle" dominant-baseline="central" fill="#633806">2m</text>
+<rect x="442" y="88" width="58" height="24" rx="3" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text class="nl" x="471" y="95" text-anchor="middle" dominant-baseline="central" fill="#712B13">Migration</text>
+<text style="font-size:9px;opacity:0.8" x="471" y="107" text-anchor="middle" dominant-baseline="central" fill="#712B13">2m</text>
+<rect x="508" y="88" width="58" height="24" rx="3" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text class="nl" x="537" y="95" text-anchor="middle" dominant-baseline="central" fill="#712B13">Cutover</text>
+<text style="font-size:9px;opacity:0.8" x="537" y="107" text-anchor="middle" dominant-baseline="central" fill="#712B13">1m</text>
+<polygon points="168,93 175,100 168,107 161,100" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
+<text class="ms" x="168" y="80" text-anchor="middle" dominant-baseline="central" fill="#633806">API freeze</text>
+<polygon points="290,93 297,100 290,107 283,100" fill="#FAC775" stroke="#854F0B" stroke-width="1.5"/>
+<text class="ms" x="290" y="80" text-anchor="middle" dominant-baseline="central" fill="#633806">DM freeze</text>
+<circle cx="576" cy="100" r="6" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="4" y="232" width="12" height="12" rx="2" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text style="font-size:11px" x="20" y="238" dominant-baseline="central" fill="#3d3d3a">Phase 1</text>
+<rect x="74" y="232" width="12" height="12" rx="2" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text style="font-size:11px" x="90" y="238" dominant-baseline="central" fill="#3d3d3a">Phase 2</text>
+<rect x="148" y="232" width="12" height="12" rx="2" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
+<text style="font-size:11px" x="164" y="238" dominant-baseline="central" fill="#3d3d3a">Phase 3</text>
+<rect x="222" y="232" width="12" height="12" rx="2" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+<text style="font-size:11px" x="238" y="238" dominant-baseline="central" fill="#3d3d3a">Phase 4</text>
+<rect x="296" y="232" width="12" height="12" rx="2" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text style="font-size:11px" x="312" y="238" dominant-baseline="central" fill="#3d3d3a">Phase 5</text>
+<polygon points="376,232 382,238 376,244 370,238" fill="#FAC775" stroke="#854F0B" stroke-width="1"/>
+<text style="font-size:11px" x="388" y="238" dominant-baseline="central" fill="#3d3d3a">Milestone</text>
 </svg>
